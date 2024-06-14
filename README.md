@@ -16,8 +16,9 @@ Welcome to my personal portfolio repository! This project showcases my skills, p
 
 You can see a live demo of the portfolio at [Your Portfolio URL](http://your-portfolio-url.com).
 
-![Portfolio Screenshot](<img width="1277" alt="Demo" src="https://github.com/SakshamTapadia/Portfolio-Website/assets/114163944/042b68de-6495-4ec9-9745-d224d568d381">
-)
+[Portfolio Screenshot]
+<img width="1277" alt="Demo" src="https://github.com/SakshamTapadia/Portfolio-Website/assets/114163944/6bd8cf0b-7a9b-4a32-902a-80bd6278290b">
+
 
 ## Features
 
