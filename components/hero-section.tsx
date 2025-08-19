@@ -17,7 +17,7 @@ export function HeroSection() {
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
-      <div className="absolute inset-0 bg-[url('/abstract-data-network.png')] bg-cover bg-center opacity-5" />
+      <div className="absolute inset-0 bg-[url(/abstract-data-network.png)] bg-cover bg-center opacity-5" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -36,7 +36,7 @@ export function HeroSection() {
             </div>
 
             <p className="text-lg text-muted-foreground max-w-2xl leading-relaxed">
-              Hi, I'm Saksham — part human, part data whisperer. I turn messy numbers into meaningful stories, solve
+              Hi, Im Saksham — part human, part data whisperer. I turn messy numbers into meaningful stories, solve
               problems one algorithm at a time, and make curiosity look like a superpower.
             </p>
 

@@ -140,7 +140,7 @@ export function ContactSection() {
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Let's discuss data science opportunities, collaborations, or your next ML project
+            Lets discuss data science opportunities, collaborations, or your next ML project
           </p>
         </div>
 
@@ -148,10 +148,10 @@ export function ContactSection() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-serif font-bold mb-6">Let's Connect</h3>
+              <h3 className="text-2xl font-serif font-bold mb-6">Lets Connect</h3>
               <p className="text-muted-foreground leading-relaxed mb-8">
-                I'm actively seeking opportunities in data science and machine learning. Whether you have an internship,
-                full-time role, or want to collaborate on exciting ML projects, I'd love to hear from you!
+                Im actively seeking opportunities in data science and machine learning. Whether you have an internship,
+                full-time role, or want to collaborate on exciting ML projects, Id love to hear from you!
               </p>
             </div>
 

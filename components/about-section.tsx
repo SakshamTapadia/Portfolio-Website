@@ -24,12 +24,12 @@ export function AboutSection() {
   ]
 
   const achievements = [
-    "2nd Runner-Up in JU Innov8'24 2.0 Hackathon",
+    "2nd Runner-Up in JU Innov824 2.0 Hackathon",
     "972nd rank in Amazon ML Hackathon (80,000+ participants)",
     "SQL 50 badge on LeetCode",
     "5 Star HackerRank SQL and Problem Solving",
     "Active contributor to AWS Cloud Club, DevCrest",
-    "Creator of 'Jobs And Internships Updates' WhatsApp Channel (2.4K followers)",
+    "Creator of Jobs And Internships Updates WhatsApp Channel (2.4K followers)",
   ]
 
   return (
@@ -65,7 +65,7 @@ export function AboutSection() {
               Science, and Data Analytics.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I've gained valuable industry experience through internships at Celebal Technologies as a Data Science
+              Ive gained valuable industry experience through internships at Celebal Technologies as a Data Science
               Intern and Ozibook as a Data Analytics Intern. My hands-on experience includes building ML models with
               95%+ accuracy, automating workflows, and working with cross-functional teams of 15+ members.
             </p>
