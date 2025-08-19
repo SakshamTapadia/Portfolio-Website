@@ -42,6 +42,26 @@ export function ExperienceSection() {
 
   const education = [
     {
+      degree: "CBSE 10th Grade",
+      field: "",
+      institution: "Mayoor School",
+      location: "Ajmer, India",
+      period: "May 2019 - July 2020",
+      cgpa: "86.4%",
+      description:
+        "",
+    },
+    {
+      degree: "CBSE 12th Grade",
+      field: "",
+      institution: "Urmi School",
+      location: "Vadodara, India",
+      period: "May 2021 - May 2022",
+      cgpa: "80.2%",
+      description:
+        "",
+    },
+    {
       degree: "Bachelor of Technology",
       field: "Computer Science and Engineering",
       institution: "JECRC University",
