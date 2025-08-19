@@ -50,12 +50,6 @@ export function ContactSection() {
       href: "mailto:sakshamtapadia10@gmail.com",
     },
     {
-      icon: Phone,
-      title: "Phone",
-      value: "+91 8058123877",
-      href: "tel:+918058123877",
-    },
-    {
       icon: MapPin,
       title: "Location",
       value: "Jaipur, Rajasthan, India",
@@ -219,7 +213,7 @@ export function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <Card className="hover-glow border-0 bg-card/50 backdrop-blur-sm">
+          {/* <Card className="hover-glow border-0 bg-card/50 backdrop-blur-sm">
             <CardHeader>
               <CardTitle className="font-serif text-2xl">Send a Message</CardTitle>
             </CardHeader>
@@ -290,7 +284,7 @@ export function ContactSection() {
                 </Button>
               </form>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>
