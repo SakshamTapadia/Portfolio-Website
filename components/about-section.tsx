@@ -50,7 +50,7 @@ export function AboutSection() {
             <div className="relative w-full max-w-md mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl rotate-6" />
               <img
-                src="/data-scientist-coding.png"
+                src="/Photo.jpg"
                 alt="About Saksham"
                 className="relative z-10 w-full h-auto rounded-2xl shadow-2xl"
               />

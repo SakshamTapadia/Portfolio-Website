@@ -9,7 +9,7 @@ export function ProjectsSection() {
       title: "Credit Lending Risk Analysis",
       description:
         "Built a CatBoost + scikit-learn pipeline achieving 92.4% accuracy (AUC-ROC 0.97) for credit default risk prediction using real-world fintech data.",
-      image: "/credit-risk-analysis.png",
+      image: "/1.png",
       tech: ["CatBoost", "scikit-learn", "Streamlit", "Python"],
       github: "https://github.com/SakshamTapadia/Credit-Lending-Risk-Analysis",
       category: "Machine Learning",
@@ -20,7 +20,7 @@ export function ProjectsSection() {
       title: "Vivid Frame",
       description:
         "Developed an AI pipeline with <50ms latency using PyTorch + YOLOv8, achieving real-time object detection with 40% speed improvement.",
-      image: "/vivid-frame-detection.png",
+      image: "/2.png",
       tech: ["PyTorch", "YOLOv8", "FastAPI", "OpenCV"],
       github: "https://github.com/SakshamTapadia/Vivid-Frame",
       category: "Computer Vision",
@@ -28,10 +28,10 @@ export function ProjectsSection() {
       metrics: "<50ms Latency, 40% Speed Boost",
     },
     {
-      title: "Email Bot",
+      title: "SwiftSend",
       description:
         "Email automation tool with 99% delivery success, featuring multi-threading with rate-limiting (50 emails/batch) and 3 parallel workers.",
-      image: "/email-automation-dashboard.png",
+      image: "/3.png",
       tech: ["Python", "Flask", "Flask-Mail", "Pandas"],
       github: "https://github.com/SakshamTapadia/EmailBot",
       category: "Automation",

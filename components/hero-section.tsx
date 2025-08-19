@@ -20,16 +20,15 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-[url(/abstract-data-network.png)] bg-cover bg-center opacity-5" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="w-full flex flex-col justify-center items-center">
           {/* Content */}
-          <div className="space-y-8 animate-fade-in-up">
+          <div className="space-y-8 animate-fade-in-up flex flex-col items-center justify-center">
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-7xl font-serif font-bold leading-tight">
-                <span className="gradient-text">Saksham</span>
-                <br />
+                <span className="gradient-text">Saksham</span>{" "}
                 Tapadia
               </h1>
-              <div className="text-xl lg:text-2xl text-muted-foreground font-light">
+              <div className="text-xl lg:text-2xl text-muted-foreground font-light flex flex-col items-center justify-center">
                 <span className="block">Data & Software Enthusiast</span>
                 <span className="block">Chaos Tamer</span>
               </div>
@@ -57,7 +56,7 @@ export function HeroSection() {
           </div>
 
           {/* Profile Image */}
-          <div className="relative lg:order-last">
+          {/* <div className="relative lg:order-last">
             <div className="relative w-80 h-80 mx-auto">
               <div className="absolute inset-0 bg-gradient-to-r from-primary to-accent rounded-full animate-pulse opacity-20" />
               <div className="absolute inset-2 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full animate-float" />
@@ -67,14 +66,14 @@ export function HeroSection() {
                 className="relative z-10 w-full h-full object-cover rounded-full border-4 border-background shadow-2xl"
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      </div>
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ArrowDown className="h-6 w-6 text-muted-foreground" />
         </div>
-      </div>
     </section>
   )
 }
