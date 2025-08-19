@@ -42,14 +42,14 @@ export function ExperienceSection() {
 
   const education = [
     {
-      degree: "CBSE 10th Grade",
-      field: "",
-      institution: "Mayoor School",
-      location: "Ajmer, India",
-      period: "May 2019 - July 2020",
-      cgpa: "86.4%",
+      degree: "Bachelor of Technology",
+      field: "Computer Science and Engineering",
+      institution: "JECRC University",
+      location: "Jaipur, India",
+      period: "Sept 2022 - July 2026",
+      cgpa: "8.96/10",
       description:
-        "",
+        "Coursework: DSA, DBMS, Machine Learning, Operating Systems, Data Science, Data Analytics. Active in AWS Cloud Club, DevCrest, and Student Council.",
     },
     {
       degree: "CBSE 12th Grade",
@@ -62,15 +62,16 @@ export function ExperienceSection() {
         "",
     },
     {
-      degree: "Bachelor of Technology",
-      field: "Computer Science and Engineering",
-      institution: "JECRC University",
-      location: "Jaipur, India",
-      period: "Sept 2022 - July 2026",
-      cgpa: "8.96/10",
+      degree: "CBSE 10th Grade",
+      field: "",
+      institution: "Mayoor School",
+      location: "Ajmer, India",
+      period: "May 2019 - July 2020",
+      cgpa: "86.4%",
       description:
-        "Coursework: DSA, DBMS, Machine Learning, Operating Systems, Data Science, Data Analytics. Active in AWS Cloud Club, DevCrest, and Student Council.",
+        "",
     },
+    
   ]
 
   return (
