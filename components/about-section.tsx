@@ -60,14 +60,11 @@ export function AboutSection() {
           <div className="space-y-6">
             <h3 className="text-2xl font-serif font-bold">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Currently pursuing B.Tech in Computer Science and Engineering at JECRC University, Jaipur with an
-              impressive CGPA of 8.96/10. My coursework includes DSA, DBMS, Machine Learning, Operating Systems, Data
-              Science, and Data Analytics.
+              Hey there! I’m Saksham Tapadia, a curious mind driven by data, logic, and a bit of caffeine. I love transforming complex datasets into stories that make sense — whether it’s predicting outcomes, spotting hidden trends, or building something cool with machine learning. When I’m not coding, you’ll probably find me exploring new AI tools or brainstorming project ideas that blur the line between creativity and tech.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Ive gained valuable industry experience through internships at Celebal Technologies as a Data Science
-              Intern and Ozibook as a Data Analytics Intern. My hands-on experience includes building ML models with
-              95%+ accuracy, automating workflows, and working with cross-functional teams of 15+ members.
+              I’m currently pursuing B.Tech in Computer Science and Engineering at JECRC University, Jaipur, holding a CGPA of 8.96/10. My academic path has been fueled by subjects like DSA, ML, and Data Analytics, which helped me shape my technical core.
+              Beyond the classroom, I’ve worked on real-world data challenges, built ML models that actually work, and collaborated with amazing people who share the same fire for innovation. Every project, hackathon, and late-night debug session has added a new layer to how I see problem-solving — not just as a skill, but as an art.
             </p>
 
             <div className="space-y-4">
@@ -87,7 +84,7 @@ export function AboutSection() {
               <div className="mt-6 p-4 bg-primary/5 rounded-lg border border-primary/20">
                 <h5 className="font-semibold text-primary mb-2">WhatsApp Channel - Jobs And Internships Updates</h5>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Helping 2.4K+ students with interview preparation, programming tips, internships and job
+                  Helping 3.1K+ students with interview preparation, programming tips, internships and job
                   opportunities. Not to miss anything that might help you get your first job!
                 </p>
                 <a

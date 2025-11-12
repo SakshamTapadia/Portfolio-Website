@@ -1,9 +1,27 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Calendar, MapPin, TrendingUp, Users, Zap } from "lucide-react"
+import { Calendar, MapPin, TrendingUp, Users, Zap, BarChart3 } from "lucide-react"
 
 export function ExperienceSection() {
   const experiences = [
+    {
+      title: "Intern",
+      company: "NuFinTech",
+      location: "Remote",
+      period: "Oct 2025 – Jan 2026",
+      type: "Internship",
+      description:
+        "Worked on building data-driven trading intelligence models leveraging market microstructure and gamma exposure analytics to enhance predictive accuracy and strategy performance.",
+      achievements: [
+        "Improved trade outcome prediction accuracy by ~30% through optimized ML pipelines",
+        "Boosted model AUC significantly using semantically rich composite features",
+        "Automated oscillator-based signal detection framework, achieving 5× faster feature extraction",
+        "Collaborated with research leads to integrate structural and statistical indicators into production models",
+      ],
+      icon: TrendingUp,
+      color: "text-blue-500",
+    },
+
     {
       title: "Data Science Intern",
       company: "Celebal Technologies",
@@ -20,6 +38,23 @@ export function ExperienceSection() {
       ],
       icon: TrendingUp,
       color: "text-green-500",
+    },
+    {
+      title: "Data Science Intern",
+      company: "Samatrix Consulting Pvt Ltd",
+      location: "Remote",
+      period: "June 2025 – July 2025",
+      type: "Internship",
+      description:
+        "Worked on multiple real-world datasets applying data cleaning, EDA, visualization, and predictive modeling to derive actionable business insights using Python and statistical methods.",
+      achievements: [
+        "Performed EDA and visualization on Employee, Energy, and EPL Auction datasets to uncover key performance trends",
+        "Developed regression-based predictive models improving dataset insights accuracy by 30%",
+        "Implemented automated data preprocessing and cleaning pipelines using Pandas & NumPy",
+        "Presented analytical findings to mentors, strengthening data-driven decision-making for business use cases",
+        ],
+        icon: BarChart3,
+        color: "text-green-500",
     },
     {
       title: "Data and Analytics Intern",
