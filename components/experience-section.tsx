@@ -8,7 +8,7 @@ export function ExperienceSection() {
       title: "Intern",
       company: "NuFinTech",
       location: "Remote",
-      period: "Oct 2025 – Jan 2026",
+      period: "Nov 2025 – Present",
       type: "Internship",
       description:
         "Worked on building data-driven trading intelligence models leveraging market microstructure and gamma exposure analytics to enhance predictive accuracy and strategy performance.",
@@ -43,7 +43,7 @@ export function ExperienceSection() {
       title: "Data Science Intern",
       company: "Samatrix Consulting Pvt Ltd",
       location: "Remote",
-      period: "June 2025 – July 2025",
+      period: "May 2025 – June 2025",
       type: "Internship",
       description:
         "Worked on multiple real-world datasets applying data cleaning, EDA, visualization, and predictive modeling to derive actionable business insights using Python and statistical methods.",
