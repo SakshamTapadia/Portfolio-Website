@@ -8,7 +8,7 @@ const ACHIEVEMENTS = [
     icon: Trophy,
     title: "JU Innov8'24 2.0 Hackathon",
     subtitle: "2nd Runner-Up",
-    description: "Secured 3rd position in university-level innovation hackathon — competed against 100+ teams.",
+    description: "Secured 3rd position in a university-level innovation hackathon, competing against 100+ teams.",
     color: "text-yellow-400",
     border: "border-yellow-400/25",
     bg: "bg-yellow-400/8",
@@ -41,7 +41,7 @@ const ACHIEVEMENTS = [
     icon: Star,
     title: "HackerRank Excellence",
     subtitle: "5-Star Rating",
-    description: "5-star rating in both SQL and Problem Solving — top-tier recognition on the platform.",
+    description: "5-star rating in both SQL and Problem Solving, placing in the top tier on the platform.",
     color: "text-primary",
     border: "border-primary/25",
     bg: "bg-primary/8",
@@ -53,7 +53,7 @@ const ACHIEVEMENTS = [
 const CONTRIBUTIONS = [
   {
     title: "AWS Cloud Club",
-    description: "Active contributor and member — workshops, events, and cloud advocacy.",
+    description: "Active contributor and member across workshops, events, and cloud advocacy.",
     icon: Users,
     color: "text-primary",
     border: "border-primary/20",
@@ -61,7 +61,7 @@ const CONTRIBUTIONS = [
   },
   {
     title: "DevCrest",
-    description: "Community contributor — developer events, hackathon mentoring, open-source.",
+    description: "Community contributor across developer events, hackathon mentoring, and open-source.",
     icon: Github,
     color: "text-secondary",
     border: "border-secondary/20",
@@ -69,7 +69,7 @@ const CONTRIBUTIONS = [
   },
   {
     title: "Student Council",
-    description: "Elected member 2022–23 — organised college events and student initiatives.",
+    description: "Elected member 2022-23, organising college events and student initiatives.",
     icon: Users,
     color: "text-accent",
     border: "border-accent/20",

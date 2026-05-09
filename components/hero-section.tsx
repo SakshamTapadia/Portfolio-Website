@@ -39,12 +39,6 @@ export function HeroSection() {
   useEffect(() => { setMounted(true) }, [])
   if (!mounted) return null
 
-  const stats = [
-    { value: "4+",     label: "Internships" },
-    { value: "8.96",   label: "CGPA" },
-    { value: "Top 1.2%", label: "Amazon ML" },
-  ]
-
   return (
     <section id="home" className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
       {/* Layer stack */}
@@ -75,19 +69,8 @@ export function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="flex flex-col items-center text-center">
 
-          {/* Status badge */}
-          <div className="animate-fade-in-up mb-8" style={{ animationDelay: "0.1s", opacity: 0 }}>
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/30 bg-primary/5 text-primary text-sm font-medium backdrop-blur-sm">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
-              </span>
-              Available for opportunities
-            </span>
-          </div>
-
           {/* Name */}
-          <div className="animate-fade-in-up" style={{ animationDelay: "0.2s", opacity: 0 }}>
+          <div className="animate-fade-in-up" style={{ animationDelay: "0.1s", opacity: 0 }}>
             <h1 className="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-serif font-bold leading-none tracking-tight mb-6">
               <span className="gradient-text">Saksham</span>
               <br />
@@ -96,7 +79,7 @@ export function HeroSection() {
           </div>
 
           {/* Role pills */}
-          <div className="animate-fade-in-up" style={{ animationDelay: "0.35s", opacity: 0 }}>
+          <div className="animate-fade-in-up" style={{ animationDelay: "0.25s", opacity: 0 }}>
             <div className="flex flex-col sm:flex-row items-center gap-3 mb-9">
               <span className="px-4 py-1.5 rounded-full bg-card/60 border border-border/50 text-lg text-muted-foreground font-light backdrop-blur-sm">
                 Data &amp; Software Enthusiast
@@ -109,7 +92,7 @@ export function HeroSection() {
           </div>
 
           {/* Description */}
-          <div className="animate-fade-in-up" style={{ animationDelay: "0.5s", opacity: 0 }}>
+          <div className="animate-fade-in-up" style={{ animationDelay: "0.4s", opacity: 0 }}>
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl leading-relaxed mb-10">
               Part human, part data whisperer. I turn messy numbers into meaningful stories,
               solve problems one algorithm at a time, and make curiosity look like a superpower.
@@ -117,7 +100,7 @@ export function HeroSection() {
           </div>
 
           {/* CTA buttons */}
-          <div className="animate-fade-in-up flex flex-col sm:flex-row gap-4" style={{ animationDelay: "0.65s", opacity: 0 }}>
+          <div className="animate-fade-in-up flex flex-col sm:flex-row gap-4" style={{ animationDelay: "0.55s", opacity: 0 }}>
             <Button
               size="lg"
               className="relative overflow-hidden bg-primary text-primary-foreground hover:bg-primary/90 shadow-[0_0_28px_oklch(0.82_0.155_198/0.35)] hover:shadow-[0_0_45px_oklch(0.82_0.155_198/0.55)] transition-all duration-300 group"
@@ -140,16 +123,6 @@ export function HeroSection() {
                 GitHub Profile
               </a>
             </Button>
-          </div>
-
-          {/* Stats row */}
-          <div className="animate-fade-in-up mt-16 grid grid-cols-3 gap-8 sm:gap-20" style={{ animationDelay: "0.8s", opacity: 0 }}>
-            {stats.map(({ value, label }) => (
-              <div key={label} className="text-center">
-                <div className="text-2xl sm:text-3xl font-serif font-bold gradient-text">{value}</div>
-                <div className="text-xs sm:text-sm text-muted-foreground mt-1 tracking-wide">{label}</div>
-              </div>
-            ))}
           </div>
         </div>
       </div>

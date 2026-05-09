@@ -177,7 +177,7 @@ export function ProjectsSection() {
         {/* More projects */}
         <div className="mb-14">
           <h3 className="text-2xl font-serif font-bold text-center mb-8">More Projects</h3>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid sm:grid-cols-2 gap-5">
             {MORE.map((p, i) => (
               <TiltCard key={i} intensity={7}>
                 <Card className="hover-glow border border-border/40 bg-card/40 backdrop-blur-md h-full">

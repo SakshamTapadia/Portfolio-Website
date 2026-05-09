@@ -5,24 +5,43 @@ import { TiltCard } from "@/components/tilt-card"
 
 const EXPERIENCES = [
   {
+    title: "Data and Analytics Intern",
+    company: "Thomson Reuters",
+    location: "Remote",
+    period: "May 2026 – Present",
+    type: "Internship",
+    description:
+      "Working on data analytics and intelligence projects, applying advanced analytical techniques to extract insights from large-scale structured and unstructured datasets.",
+    achievements: [
+      "Analysing large-scale datasets to surface actionable insights for internal stakeholders",
+      "Building automated data pipelines and reporting dashboards to streamline decision-making",
+      "Collaborating cross-functionally with product and engineering teams on data quality initiatives",
+    ],
+    icon: BarChart3,
+    color: "text-primary",
+    border: "border-primary/20",
+    dot: "bg-primary",
+    glow: "rgba(34,211,238,0.08)",
+  },
+  {
     title: "Intern",
     company: "NuFinTech",
     location: "Remote",
-    period: "Nov 2025 – Present",
+    period: "Nov 2025 – Apr 2026",
     type: "Internship",
     description:
       "Built data-driven trading intelligence models leveraging market microstructure and gamma exposure analytics to enhance predictive accuracy and strategy performance.",
     achievements: [
       "Improved trade outcome prediction accuracy by ~30% through optimised ML pipelines",
       "Boosted model AUC significantly using semantically rich composite features",
-      "Automated oscillator-based signal detection framework — 5× faster feature extraction",
+      "Automated oscillator-based signal detection framework, achieving 5x faster feature extraction",
       "Collaborated with research leads to integrate structural and statistical indicators into production models",
     ],
     icon: TrendingUp,
-    color: "text-primary",
-    border: "border-primary/20",
-    dot: "bg-primary",
-    glow: "rgba(34,211,238,0.08)",
+    color: "text-secondary",
+    border: "border-secondary/20",
+    dot: "bg-secondary",
+    glow: "rgba(168,85,247,0.08)",
   },
   {
     title: "Data Science Intern",
@@ -39,10 +58,10 @@ const EXPERIENCES = [
       "Built model evaluation, optimisation, and production-ready pipelines",
     ],
     icon: BarChart3,
-    color: "text-secondary",
-    border: "border-secondary/20",
-    dot: "bg-secondary",
-    glow: "rgba(168,85,247,0.08)",
+    color: "text-chart-4",
+    border: "border-chart-4/20",
+    dot: "bg-chart-4",
+    glow: "rgba(80,200,120,0.08)",
   },
   {
     title: "Data Science Intern",
@@ -73,16 +92,16 @@ const EXPERIENCES = [
     description:
       "Automated data analysis workflows and built efficient tools to streamline business operations while working with cross-functional teams.",
     achievements: [
-      "Automated workflows — reduced reporting time from 60 min to <10 min",
+      "Automated workflows, reducing reporting time from 60 min to under 10 min",
       "Built Python-based receipt generator, reducing manual effort by 80%",
       "Coordinated with 15+ member cross-functional team",
       "Streamlined dashboards & workflows, accelerating delivery by 25%",
     ],
     icon: Users,
-    color: "text-chart-4",
-    border: "border-chart-4/20",
-    dot: "bg-chart-4",
-    glow: "rgba(80,200,120,0.08)",
+    color: "text-chart-5",
+    border: "border-chart-5/20",
+    dot: "bg-chart-5",
+    glow: "rgba(200,150,50,0.08)",
   },
 ]
 

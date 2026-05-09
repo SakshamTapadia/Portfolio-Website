@@ -87,14 +87,17 @@ export function AboutSection() {
           <div className="space-y-5">
             <h3 className="text-2xl font-serif font-bold">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Hey there! I&apos;m Saksham Tapadia — a curious mind driven by data, logic, and a bit of caffeine.
-              I love transforming complex datasets into stories that make sense: predicting outcomes,
-              spotting hidden trends, or building something cool with machine learning.
+              I am Saksham Tapadia, a Computer Science and Engineering undergraduate at JECRC University,
+              Jaipur, with a CGPA of 8.96/10. My academic foundation spans Data Structures and Algorithms,
+              Machine Learning, Database Management Systems, and Data Analytics, which I have consistently
+              applied to real-world problems across multiple internships.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Pursuing B.Tech in Computer Science at JECRC University, Jaipur. My path has been fuelled by
-              DSA, ML, and Data Analytics. Beyond the classroom I&apos;ve tackled real-world challenges, built
-              models that actually work, and collaborated with people who share the same fire for innovation.
+              I specialise in building end-to-end machine learning pipelines, from raw data ingestion and
+              feature engineering to model deployment and monitoring. I enjoy working at the intersection of
+              data science and software engineering, where clean code meets measurable business impact. I am
+              equally comfortable exploring a new dataset independently or collaborating within a fast-paced
+              engineering team.
             </p>
 
             <div className="space-y-3 pt-1">
@@ -111,7 +114,7 @@ export function AboutSection() {
             </div>
 
             <div className="p-4 rounded-xl border border-primary/20 bg-primary/5 mt-2">
-              <p className="text-sm font-medium text-primary mb-1">WhatsApp Channel — Jobs &amp; Internships</p>
+              <p className="text-sm font-medium text-primary mb-1">WhatsApp Channel: Jobs &amp; Internships</p>
               <p className="text-xs text-muted-foreground mb-2">3.1K+ students get daily curated internship &amp; job updates</p>
               <a
                 href="https://whatsapp.com/channel/0029VamskeRIHphAM86hQc3L"

@@ -6,23 +6,28 @@ import { TiltCard } from "@/components/tilt-card"
 const SKILL_CATS = [
   {
     title: "Programming Languages",
-    skills: ["Python", "C++", "SQL", "C", "HTML", "CSS"],
+    skills: ["Python", "SQL", "C++", "C", "JavaScript", "HTML", "CSS", "Bash"],
     accent: { text: "text-primary", border: "border-primary/30", bg: "bg-primary/8", glow: "rgba(34,211,238,0.09)", dot: "bg-primary" },
   },
   {
-    title: "Frameworks & Libraries",
-    skills: ["Pandas", "Scikit-learn", "TensorFlow", "PyTorch", "Hugging Face", "LangChain"],
+    title: "ML / Data Science",
+    skills: ["Pandas", "NumPy", "Scikit-learn", "TensorFlow", "PyTorch", "Hugging Face", "LangChain", "Matplotlib", "Seaborn", "Plotly", "NLTK", "MLflow"],
     accent: { text: "text-secondary", border: "border-secondary/30", bg: "bg-secondary/8", glow: "rgba(168,85,247,0.09)", dot: "bg-secondary" },
   },
   {
-    title: "Tools & Platforms",
-    skills: ["AWS", "Git/GitHub", "MySQL", "Power BI", "VS Code", "Jupyter", "PyCharm", "Excel"],
+    title: "Web & APIs",
+    skills: ["FastAPI", "Flask", "Streamlit", "OpenCV", "REST APIs", "WebSocket"],
     accent: { text: "text-accent", border: "border-accent/30", bg: "bg-accent/8", glow: "rgba(244,114,182,0.09)", dot: "bg-accent" },
   },
   {
-    title: "Soft Skills",
-    skills: ["Problem-Solving", "Time Management", "Cross-Functional Collaboration", "Communication"],
+    title: "Tools & Platforms",
+    skills: ["AWS", "Docker", "Git/GitHub", "MySQL", "PostgreSQL", "Apache Kafka", "Redis", "Power BI", "Tableau", "Prometheus", "Grafana", "Jupyter", "Excel"],
     accent: { text: "text-chart-4", border: "border-chart-4/30", bg: "bg-chart-4/8", glow: "rgba(80,200,120,0.09)", dot: "bg-chart-4" },
+  },
+  {
+    title: "Soft Skills",
+    skills: ["Problem-Solving", "Analytical Thinking", "Time Management", "Cross-Functional Collaboration", "Communication", "Stakeholder Presentation"],
+    accent: { text: "text-chart-5", border: "border-chart-5/30", bg: "bg-chart-5/8", glow: "rgba(200,150,50,0.09)", dot: "bg-chart-5" },
   },
 ]
 
