@@ -7,7 +7,7 @@ const EXPERIENCES = [
   {
     title: "Data and Analytics Intern",
     company: "Thomson Reuters",
-    location: "Remote",
+    location: "Bengaluru, Karnataka",
     period: "May 2026 – Present",
     type: "Internship",
     description:
@@ -112,7 +112,7 @@ const EDUCATION = [
     institution: "JECRC University",
     location: "Jaipur, India",
     period: "Sept 2022 – July 2026",
-    grade: "CGPA 8.96/10",
+    grade: "CGPA 9.00/10",
     description: "Coursework: DSA, DBMS, Machine Learning, Operating Systems, Data Science, Data Analytics. Active in AWS Cloud Club, DevCrest, and Student Council.",
     color: "text-primary",
     border: "border-primary/20",

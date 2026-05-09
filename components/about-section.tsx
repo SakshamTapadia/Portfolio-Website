@@ -7,7 +7,7 @@ const highlights = [
     icon: Database,
     title: "Data Science Expert",
     description:
-      "B.Tech CSE at JECRC University (CGPA: 8.96/10) with specialization in Data Science, ML, and Analytics. Built production models with 95%+ accuracy.",
+      "B.Tech CSE at JECRC University (CGPA: 9.00/10) with specialization in Data Science, ML, and Analytics. Built production models with 95%+ accuracy.",
     color: "text-primary",
     border: "border-primary/20",
     bg: "bg-primary/5",
@@ -75,7 +75,7 @@ export function AboutSection() {
               />
               {/* Floating stat chips */}
               <div className="absolute -bottom-5 -right-5 bg-card border border-primary/30 rounded-xl px-4 py-2 backdrop-blur-sm shadow-[0_0_20px_rgba(34,211,238,0.15)]">
-                <span className="text-primary font-mono text-sm font-bold">CGPA 8.96 / 10</span>
+                <span className="text-primary font-mono text-sm font-bold">CGPA 9.00 / 10</span>
               </div>
               <div className="absolute -top-5 -left-5 bg-card border border-secondary/30 rounded-xl px-4 py-2 backdrop-blur-sm shadow-[0_0_20px_rgba(168,85,247,0.15)]">
                 <span className="text-secondary font-mono text-sm font-bold">4+ Internships</span>
@@ -88,7 +88,7 @@ export function AboutSection() {
             <h3 className="text-2xl font-serif font-bold">My Journey</h3>
             <p className="text-muted-foreground leading-relaxed">
               I am Saksham Tapadia, a Computer Science and Engineering undergraduate at JECRC University,
-              Jaipur, with a CGPA of 8.96/10. My academic foundation spans Data Structures and Algorithms,
+              Jaipur, with a CGPA of 9.00/10. My academic foundation spans Data Structures and Algorithms,
               Machine Learning, Database Management Systems, and Data Analytics, which I have consistently
               applied to real-world problems across multiple internships.
             </p>
